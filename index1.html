@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web Corporativo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <section id="inicio">
+    <h1>Bienvenidos a Cadiz Construcción</h1>
+    <p>Somos una empresa especializada en el sector de la construcción en la sierra de Cádiz.</p>
+    <img src="img/empresa.jpg" alt="Imagen de la empresa">
+   </section>
+<section id="quienes-somos">
+    <h2>¿Quiénes somos?</h2>
+    <p>Somos un equipo de profesionales dedicados a la construcciónn de viviendas la cual cuenta con una gran flota de trabajadores profesionales encargados de los diversos sectores de la construcción.</p>
+    <div class="galeria">
+        <img src="img/equipo1.jpg" alt="Miembro del equipo">
+        <img src="img/equipo2.jpg" alt="Miembro del equipo">
+    </div>
+    <video controls>
+        <source src="video-corporativo.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
+</section>
+<section id="productos">
+    <h2>Productos y Servicios</h2>
+    <table>
+        <tr>
+            <th>Producto</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Vivienda de 1 planta</td>
+            <td>Adosado listo para entrar a vivir</td>
+            <td>50000€</td>
+        </tr>
+        <tr>
+            <td>Bloque de edificio</td>
+            <td>Edificio con 6 viviendas</td>
+            <td>250000€</td>
+        </tr>
+    </table>
+</section>
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Dirección: Guadalcacin,28, Arcos de la Frontera</p>
+    <p>Teléfono: 654189381</p>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+<section id="trabaja-con-nosotros">
+    <h2>Trabaja con nosotros</h2>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni" required>
+            <!-- Añade más campos según sea necesario -->
+        </fieldset>
+        <fieldset>
+            <legend>Formación</legend>
+            <label for="titulacion">Titulación:</label>
+            <input type="text" id="titulacion" name="titulacion">
+            <label for="ano-inicio">Año de inicio:</label>
+            <input type="date" id="ano-inicio" name="ano-inicio">
+            <label for="ano-fin">Año de finalización:</label>
+            <input type="date" id="ano-fin" name="ano-fin">
+        </fieldset>
+        <fieldset>
+            <legend>Idiomas</legend>
+            <label for="idioma">Idioma:</label>
+            <input type="text" id="idioma" name="idioma">
+            <label>Nivel:</label>
+            <select>
+                <option value="excelente">Excelente</option>
+                <option value="bien">Bien</option>
+                <option value="regular">Regular</option>
+                <option value="nada">Nada</option>
+            </select>
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#quienes-somos">¿Quiénes somos?</a></li>
+                <li><a href="#productos">Productos y Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#trabaja-con-nosotros">Trabaja con nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Aquí irán las secciones -->
+    </main>
+    <footer>
+        <p>También puedes visitarnos en:</p>
+        <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+        <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+    </footer>
+</body>
+</html>
